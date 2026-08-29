@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f5f9;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+}
+
+.card-modern {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.card-modern:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-modern {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-modern:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary-modern {
+  background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);
+  color: white;
+}
+
+.btn-primary-modern:hover {
+  color: white;
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.form-control-modern {
+  border-radius: 10px;
+  border: 1.5px solid #e2e8f0;
+  padding: 10px 14px;
+  transition: border-color 0.15s ease;
+}
+
+.form-control-modern:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.table-modern thead {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.table-modern tbody tr:hover {
+  background-color: #f8fafc;
+}
